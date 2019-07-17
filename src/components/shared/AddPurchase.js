@@ -36,6 +36,7 @@ class AddPurchase extends Component {
 
   render() {
     const { price, category, description } = this.state;
+    const { addPurchase } = this.props
     return (
       <div className='add-purchase'>
         <div className="form-group">
